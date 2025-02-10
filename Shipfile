@@ -1,0 +1,4 @@
+script: |
+  go mod download
+  go build -o app
+run: ./app
